@@ -1,6 +1,9 @@
 BlueLock is a lightweight, privacy-focused productivity tool for Windows that brings intelligent Bluetooth walk-away auto-lock, instant display power-off, and smart sleep prevention to your desktop.
 
-Key Highlights:
+## install
+winget install bluelock
+
+## Key Highlights:
 
 1. Bluetooth Walk-Away Auto-Lock:
 Pair your smartphone or smartwatch with Windows. When you step away from your workstation (5–8 meters), BlueLock automatically turns off your monitors and locks the workstation within seconds to protect your privacy and sensitive data.
