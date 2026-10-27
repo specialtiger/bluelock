@@ -5,7 +5,7 @@ winget install bluelock
 
 ## Screenshot
 
-![BlueLock Control Center](assets/bluelock-control-center.svg)
+![BlueLock Control Center](images/snapshot1.png)
 
 ## Key Highlights:
 
