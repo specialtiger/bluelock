@@ -3,10 +3,14 @@ BlueLock is a lightweight, privacy-focused productivity tool for Windows that br
 ## Install
 winget install bluelock
 
+## Screenshot
+
+![BlueLock Control Center](assets/bluelock-control-center.svg)
+
 ## Key Highlights:
 
 1. Bluetooth Walk-Away Auto-Lock:
-Pair your smartphone or smartwatch with Windows. When you step away from your workstation (5–8 meters), BlueLock automatically turns off your monitors and locks the workstation within seconds to protect your privacy and sensitive data.
+Pair your smartphone or smartwatch with Windows. When you step away from your workstation (5–8 meters), BlueLock automatically turns off your monitors and locks the workstation within seconds to protect your privacy.
 
 2. Auto Screen-On on Return:
 Wakes display when you return with your phone for seamless Windows Hello facial unlock
