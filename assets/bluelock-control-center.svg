@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">BlueLock Control Center</title>
+  <desc id="desc">BlueLock app control center screenshot mockup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4f7fb"/>
+      <stop offset="100%" stop-color="#ebf0f5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity="0.22" flood-color="#112233"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="52" width="1060" height="660" rx="10" fill="#f5f7fb" stroke="#c9d3dc"/>
+    <rect x="70" y="52" width="1060" height="38" rx="10" fill="#eef3f7" stroke="#c9d3dc"/>
+    <text x="108" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#1f2c36">BlueLock - Control Center</text>
+    <circle cx="1032" cy="71" r="7" fill="#ff5f57"/>
+    <circle cx="1056" cy="71" r="7" fill="#ffbd2e"/>
+    <circle cx="1080" cy="71" r="7" fill="#28c840"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5a6f82">
+      <text x="112" y="120" font-weight="600">Hotkey &amp; Options</text>
+      <text x="285" y="120">Schedule</text>
+      <text x="375" y="120">Bluetooth Lock</text>
+      <text x="515" y="120">Logs</text>
+      <text x="580" y="120">About</text>
+    </g>
+
+    <rect x="100" y="136" width="1000" height="430" rx="8" fill="#f9fafc" stroke="#dce3ea"/>
+
+    <g transform="translate(130,175)">
+      <rect x="0" y="0" width="18" height="18" rx="3" fill="#2f9ad7"/>
+      <path d="M4 9 L8 12.5 L15 5.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="32" y="14" font-size="20" font-weight="600" fill="#203042">Enable Bluetooth walk-away lock (turns off in 5-8m)</text>
+    </g>
+
+    <g transform="translate(130,232)">
+      <text x="0" y="12" font-size="17" fill="#2b3b4a">Paired Device:</text>
+      <rect x="160" y="-17" width="410" height="40" rx="4" fill="#fff" stroke="#c0c9d1"/>
+      <text x="180" y="10" font-size="17" fill="#2d3d4d">SM-G981N [749EF5B0340E]</text>
+      <path d="M575 2 L590 -12 L590 15 Z" fill="#8ea0af"/>
+      <rect x="610" y="-17" width="35" height="35" rx="4" fill="#fff" stroke="#c0c9d1"/>
+      <path d="M622 7 L631 7 M626.5 2.5 L626.5 11.5" stroke="#728095" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="636" cy="7" r="3" fill="#728095"/>
+    </g>
+
+    <g transform="translate(130,294)">
+      <text x="0" y="12" font-size="17" fill="#2b3b4a">Walk-away timeout:</text>
+      <rect x="170" y="-17" width="82" height="34" rx="4" fill="#fff" stroke="#c0c9d1"/>
+      <text x="204" y="10" font-size="17" fill="#2d3d4d">8</text>
+      <path d="M250 -6 L257 -6 L257 5 L250 12 Z" fill="#7d8c9b"/>
+      <path d="M250 12 L257 12 L257 23 L250 30 Z" fill="#7d8c9b"/>
+      <text x="272" y="12" font-size="17" fill="#2d3d4d">seconds (locks 1 second after signal lost for this</text>
+      <text x="272" y="35" font-size="17" fill="#2d3d4d">device)</text>
+    </g>
+
+    <g transform="translate(130,366)">
+      <g>
+        <rect x="0" y="0" width="18" height="18" rx="3" fill="#2f9ad7"/>
+        <path d="M4 9 L8 12.5 L15 5.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="32" y="14" font-size="18" fill="#203042">Suppress lock while keyboard/mouse active (prevent accidental lock)</text>
+      </g>
+      <g transform="translate(0,38)">
+        <rect x="0" y="0" width="18" height="18" rx="3" fill="#f3f7fa" stroke="#b7c2cd"/>
+        <text x="32" y="14" font-size="18" fill="#203042">Suppress lock when video playing (system DISPLAY request active)</text>
+      </g>
+      <g transform="translate(0,74)">
+        <rect x="0" y="0" width="18" height="18" rx="3" fill="#2f9ad7"/>
+        <path d="M4 9 L8 12.5 L15 5.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="32" y="14" font-size="18" fill="#203042">Wake screen on return (Triggers Windows Hello to unlock)</text>
+      </g>
+    </g>
+
+    <g transform="translate(130,530)">
+      <text x="0" y="12" font-size="18" fill="#2d3d4d">Success! Signal active</text>
+      <rect x="430" y="-18" width="210" height="38" rx="6" fill="#2b97c7"/>
+      <text x="505" y="11" font-size="18" font-weight="600" fill="#fff">Probe Now</text>
+    </g>
+
+    <g transform="translate(130,578)">
+      <text x="0" y="0" font-size="17" fill="#2d3d4d">Instructions: Pair your Android phone once in Windows Bluetooth settings.</text>
+    </g>
+
+    <g transform="translate(130,620)">
+      <circle cx="12" cy="12" r="12" fill="#2ecc71"/>
+      <text x="34" y="18" font-size="17" font-weight="700" fill="#1b2e3a">133ms</text>
+    </g>
+  </g>
+</svg>
