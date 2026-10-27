@@ -1,6 +1,6 @@
 BlueLock is a lightweight, privacy-focused productivity tool for Windows that brings intelligent Bluetooth walk-away auto-lock, instant display power-off, and smart sleep prevention to your desktop.
 
-## install
+## Install
 winget install bluelock
 
 ## Key Highlights:
